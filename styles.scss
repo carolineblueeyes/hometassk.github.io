@@ -1,22 +1,19 @@
 @font-face {
 	font-family: 'Circular Medium';
-	src: url(/fonts/circular/circular-medium.ttf);
-}
-
-@font-face {
+	src: url(/fonts/RobotoCondensed-Regular.ttf); }
+  
+  @font-face {
 	font-family: 'Circular Book';
-	src: url(/fonts/circular/circular-book.otf);
-}
-
-@font-face {
+	src: url(/fonts/RobotoCondensed-Regular.ttf); }
+  
+  @font-face {
 	font-family: 'Circular Bold';
-	src: url(/fonts/circular/circular-bold.otf);
-}
-
-@font-face {
+	src: url(/fonts/RobotoCondensed-Bold.ttf); }
+  
+  @font-face {
 	font-family: 'Circular Light';
-	src: url(/fonts/circular/circular-light.ttf);
-}
+	src: url(/fonts/RobotoCondensed-Light.ttf); }
+  
 
 :root {
 	--grey-med: #ddd;
@@ -293,7 +290,7 @@ button {
 		&-superHost {
 			&:before {
 				position: absolute;
-				content: 'SUPERHOST';
+				content: 'СУПЕРХОЗЯИН';
 				background: white;
 				box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
 				border-radius: 4px;
@@ -305,6 +302,21 @@ button {
 				font-family: 'Circular Medium';
 				text-transform: uppercase;
 			}
+			&-Rar {
+				&:before {
+					position: absolute;
+					content: 'Редкая находка';
+					background: white;
+					box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+					border-radius: 4px;
+					padding: 4px 8px;
+					top: 10px;
+					left: 10px;
+					letter-spacing: 0.48px;
+					font-size: 12px;
+					font-family: 'Circular Medium';
+					text-transform: uppercase;
+				}
 		}
 		button {
 			position: absolute;
@@ -428,4 +440,5 @@ footer {
 #map {
 	height: 100%;
 	width: 100%;
+}
 }
