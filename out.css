@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'Circular Medium';
-  src: url(/fonts/RobotoCondensed-Regular.ttf); }
+  src: url(fonts/RobotoCondensed-Regular.ttf); }
 
 @font-face {
   font-family: 'Circular Book';
-  src: url(/fonts/RobotoCondensed-Regular.ttf); }
+  src: url(fonts/RobotoCondensed-Regular.ttf); }
 
 @font-face {
   font-family: 'Circular Bold';
-  src: url(/fonts/RobotoCondensed-Bold.ttf); }
+  src: url(fonts/RobotoCondensed-Bold.ttf); }
 
 @font-face {
   font-family: 'Circular Light';
-  src: url(/fonts/RobotoCondensed-Light.ttf); }
+  src: url(fonts/RobotoCondensed-Light.ttf); }
 
 :root {
   --grey-med: #ddd;
